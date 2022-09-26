@@ -232,6 +232,8 @@ button:hover {
 
 /* Section2*/
 
+
+
 .section2_container {
   margin-top: 60px;
   display: flex;
@@ -246,7 +248,6 @@ button:hover {
     color: var(--black_blue);
     font-family: "Roboto";
     font-weight: 400;
-    border: 1px solid green;
 }
 
 h2 {
@@ -269,8 +270,69 @@ h3 {
 }
 
 .flower_foto1 {
-   position: relative;
-   top: -525px;
-   right: -1180px;
+   position: absolute;
+   top: 795px;
+   right: 0px;
 
 }
+
+/* Section3 Pets*/
+
+.section_pets {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 29px;
+    padding-top: 180px;
+    width: 1160px;
+
+}
+
+.item_pets {
+    height: 420px;
+
+
+}
+
+.item_pets :hover {
+    cursor: pointer;
+}
+
+.text_pets {
+    text-align: left;
+    color: var(--black);
+    font-family: "Roboto";
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+
+.name_pets {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.habitat_pets {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.pets_eat.banana {
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.pets_eat.meet {
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+.about_pets {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+
